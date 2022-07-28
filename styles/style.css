@@ -1,0 +1,31 @@
+/* Google Fonts: Poppins and Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap');
+
+/* Common Section */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-blue{
+    background-color: #289BDE;
+}
+
+/* Carosaul Image Slider */
+.slider-img{
+    height: 50rem;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.slider-bg-black{
+    background-color: black;
+}
+
+.slider-text-position{
+    margin-bottom: 9rem;
+}
+
+.slider-heading{
+    font-size: 4.5rem;
+}
+
