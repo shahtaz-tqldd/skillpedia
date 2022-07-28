@@ -9,15 +9,25 @@ body{
 .bg-blue{
     background-color: #289BDE;
 }
+.bg-explore{
+    background-color:  #F4FAFD;
+}
 .color-blue{
     color: #289BDE;
+}
+.color-text{
+    color: #4A4A4A;
+}
+
+.section-gap{
+    margin: 150px 0 !important;
 }
 
 /* Carosaul Image Slider */
 .slider-img{
     height: 50rem;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .slider-bg-black{
@@ -25,20 +35,13 @@ body{
 }
 
 .slider-text-position{
-    margin-bottom: 9rem;
+    margin-bottom: 8rem;
 }
 
 .slider-heading{
     font-size: 4.5rem;
 }
-@media only screen and (max-width:576px) {
-    .slider-heading{
-        font-size: 2.5rem;
-    }
-    .slider-text-position{
-        margin-bottom: 5rem;
-    }
-}
+
 /* Footer Section */
 
 footer{
@@ -47,4 +50,15 @@ footer{
 }
 .footer-height{
     height: 350px;
+}
+
+/* Custom Responsive Style  */
+
+@media only screen and (max-width:768px) {
+    .slider-heading{
+        font-size: 2.8rem;
+    }
+    .slider-text-position{
+        margin-bottom: 7rem;
+    }
 }
