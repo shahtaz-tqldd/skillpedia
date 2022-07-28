@@ -9,6 +9,9 @@ body{
 .bg-blue{
     background-color: #289BDE;
 }
+.color-blue{
+    color: #289BDE;
+}
 
 /* Carosaul Image Slider */
 .slider-img{
