@@ -31,4 +31,20 @@ body{
 .slider-heading{
     font-size: 4.5rem;
 }
+@media only screen and (max-width:576px) {
+    .slider-heading{
+        font-size: 2.5rem;
+    }
+    .slider-text-position{
+        margin-bottom: 5rem;
+    }
+}
+/* Footer Section */
 
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footer-height{
+    height: 350px;
+}
